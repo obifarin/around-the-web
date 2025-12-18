@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ProductCardProps {
   title: string;
   imagePlaceholder?: boolean;

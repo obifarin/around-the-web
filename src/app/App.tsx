@@ -1,10 +1,11 @@
+import React from "react";
 import { Header } from "./components/Header";
 import { ProductCard } from "./components/ProductCard";
-import issue37Image from "figma:asset/3a65369d66fe6224eaf77a1489e5abc3ec8e8465.png";
-import issue36Image from "figma:asset/056b8123b92300f92a2480242360ca7863e63814.png";
-import issue35Image from "figma:asset/18b4296711f6db3fe8c776c3a7902a9e5f4d42ca.png";
-import issue34Image from "figma:asset/280b44385328271f8d41a268227e177bc19a4880.png";
-import issue33Image from "figma:asset/9e914152fa07a7b2ba370c37d04d0f70102465ab.png";
+import issue37Image from "../assets/3a65369d66fe6224eaf77a1489e5abc3ec8e8465.png";
+import issue36Image from "../assets/056b8123b92300f92a2480242360ca7863e63814.png";
+import issue35Image from "../assets/18b4296711f6db3fe8c776c3a7902a9e5f4d42ca.png";
+import issue34Image from "../assets/280b44385328271f8d41a268227e177bc19a4880.png";
+import issue33Image from "../assets/9e914152fa07a7b2ba370c37d04d0f70102465ab.png";
 
 function App() {
   const products = [

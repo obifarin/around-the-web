@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Header() {
   return (
     <header className="w-full py-8 px-6 md:px-12 border-b border-black">
