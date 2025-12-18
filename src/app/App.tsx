@@ -1,3 +1,4 @@
+/// <reference path="../assets.d.ts" />
 import React from "react";
 import { Header } from "./components/Header";
 import { ProductCard } from "./components/ProductCard";
@@ -76,7 +77,7 @@ function App() {
 
         {/* Product Grid */}
         <section>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {products.map((product) => (
               <ProductCard
                 key={product.id}
@@ -98,6 +99,68 @@ function App() {
             >
               Find More
             </a>
+          </div>
+        </section>
+
+        {/* Also By Section */}
+        <section className="mt-20 md:mt-32">
+          <h2 className="font-['Inter'] uppercase tracking-[0.2em] text-lg md:text-xl mb-12">
+            Also by Olatomiwa Bifarin
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* The Epsilon */}
+            <div className="border border-black p-6 bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-['Inter'] font-bold text-lg mb-2">
+                The Epsilon
+              </h3>
+              <p className="font-['Inter'] font-light text-sm opacity-70 mb-6">
+                Guide to AI.
+              </p>
+              <a
+                href="https://theepsilon.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 font-['Inter'] font-normal uppercase tracking-[0.15em] text-sm hover:bg-black hover:text-white transition-colors duration-200"
+              >
+                Visit
+              </a>
+            </div>
+
+            {/* Wander Book */}
+            <div className="border border-black p-6 bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-['Inter'] font-bold text-lg mb-2">
+                Wander: Plans Are Overrated
+              </h3>
+              <p className="font-['Inter'] font-light text-sm opacity-70 mb-6">
+                A memoir-essay.
+              </p>
+              <a
+                href="https://epistemeengine.gumroad.com/l/wander"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 font-['Inter'] font-normal uppercase tracking-[0.15em] text-sm hover:bg-black hover:text-white transition-colors duration-200"
+              >
+                Get Book
+              </a>
+            </div>
+
+            {/* eE Instagram */}
+            <div className="border border-black p-6 bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-['Inter'] font-bold text-lg mb-2">
+                eE Instagram
+              </h3>
+              <p className="font-['Inter'] font-light text-sm opacity-70 mb-6">
+                Books and bite-sized ideas.
+              </p>
+              <a
+                href="https://www.instagram.com/epistemeengine/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 font-['Inter'] font-normal uppercase tracking-[0.15em] text-sm hover:bg-black hover:text-white transition-colors duration-200"
+              >
+                Follow
+              </a>
+            </div>
           </div>
         </section>
       </main>
