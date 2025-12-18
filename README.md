@@ -1,7 +1,7 @@
 
   # Around The Web
 
-  This is a code bundle for Around The Web (https://www.epistemeengine.com/s/around-the-web) 
+  This is a code bundle for Around The Web
 
   ## Running the code
   
