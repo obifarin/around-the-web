@@ -2,6 +2,7 @@
 import React from "react";
 import { Header } from "./components/Header";
 import { ProductCard } from "./components/ProductCard";
+import issue40Image from "../assets/Issue 40 Cover.png";
 import issue39Image from "../assets/Issue 39 Cover.png";
 import issue38Image from "../assets/Issue 38 Cover.png";
 import issue37Image from "../assets/3a65369d66fe6224eaf77a1489e5abc3ec8e8465.png";
@@ -12,6 +13,12 @@ import issue33Image from "../assets/9e914152fa07a7b2ba370c37d04d0f70102465ab.png
 
 function App() {
   const products = [
+    {
+      id: 3,
+      title: "Issue 40",
+      image: issue40Image,
+      url: "https://www.epistemeengine.com/p/around-the-web-40",
+    },
     {
       id: 4,
       title: "Issue 39",
